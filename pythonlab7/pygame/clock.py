@@ -97,7 +97,7 @@ while running:
                 next_track()
             elif event.key == pygame.K_b:  # Previous track
                 previous_track()
-
+            
             # Keyboard controls for ball movement
             if event.key == pygame.K_UP:
                 ball_y = max(ball_y - ball_speed, ball_radius)  # Move up, ensure it doesn't go off the screen
